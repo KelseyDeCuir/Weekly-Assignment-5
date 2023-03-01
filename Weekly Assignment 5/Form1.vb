@@ -23,10 +23,10 @@
                 decTotalCost = (intGroup * decRegistration)
                 lblCostTickets.Text = decTotalCost.ToString("C")
             Else
-                MsgBox("Enter a positive number between 1 and 20", , "Invalid Number Error")
+                MsgBox("Please, enter a positive number between 1 and 20", , "Invalid Number Error")
             End If
         Else
-            MsgBox("Enter a reasonable number between 1 and 20", , "Invalid Entry Error")
+            MsgBox("Please, enter a reasonable number between 1 and 20", , "Invalid Entry Error")
         End If
 
     End Sub
