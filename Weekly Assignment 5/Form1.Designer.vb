@@ -145,6 +145,7 @@ Partial Class Form1
         Me.lblCostTickets.Name = "lblCostTickets"
         Me.lblCostTickets.Size = New System.Drawing.Size(137, 28)
         Me.lblCostTickets.TabIndex = 6
+        Me.lblCostTickets.Text = "$0000.00"
         '
         'btnCalculate
         '
